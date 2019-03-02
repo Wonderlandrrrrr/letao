@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 设置视口 -->
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自己写的乐淘移动端页面</title>
+     <!-- 1.引入MUI的css文件  使用这个没有压缩的文件  mui.css带了rem单位 -->
+    <link rel="stylesheet" href="./lib/mui/css/mui.css">
+    <!-- 2.引入fontawesome字体图标库的css文件  提供页面字体图标 -->
+    <link rel="stylesheet" href="./lib/fontAwesome/css/font-awesome.css">
+    <!-- 3.引入自己的css文件 -->
+    <link rel="stylesheet" href="./less/index.css">
+</head>
+<body>
+   <!-- 头部区域 -->
+   <header id="header">
+       <div class="left"></div>
+       <div class="center">
+           <h4>乐淘字写主页</h4>
+       </div>
+
+       <div class="right">
+           <i class="fa-search "></i>
+       </div>
+   </header>
+   <!-- 主体区域 -->
+   <main id="main">
+       <!-- 轮播图 -->
+       <section class="slide"></section>
+       <!-- 导航栏 -->
+       <nav class="nav"></nav>
+       <!-- 广告区域 -->
+       <section class="banner"></section>
+       <!-- 品牌区域 -->
+       <section class="brand"></section>
+       <!-- 运动区域 -->
+       <section class="sport"></section>
+       <!-- 女士专区 -->
+       <section class="women"></section>
+       <!-- 男士专区 -->
+       <section class="man"></section>
+   </main>
+   <!-- 尾部区域 -->
+   <footer id="footer"></footer>
+    <!-- 1.引入自己的MUI的js文件 -->
+    <script src="./lib/mui/js/mui.js"></script>
+    <!-- 2.引入zepto  获取元素  发送请求 -->
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <!-- 3.有请求使用到模板  引入模板引擎  template-web.js -->
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <!-- 4.引入自己的js -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
